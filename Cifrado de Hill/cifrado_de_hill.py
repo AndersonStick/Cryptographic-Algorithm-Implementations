@@ -229,11 +229,3 @@ inversa_3x3 = matriz_inversa_mod26(clave_3x3)
 print("Matriz inversa módulo 26:")
 for fila in inversa_3x3:
     print(fila)
-
-if __name__ == "__main__":
-    mensaje_cifrado = "VZTHYCNPDPPJLES"
-    clave_3x3 = [[22, 19, 13], [0, 22, 3], [6, 5, 12]]  # Clave utilizada para cifrar el mensaje
-
-    # Descifrar el mensaje
-    mensaje_descifrado = descifrar(mensaje_cifrado, clave_3x3)
-    print("Mensaje descifrado:", mensaje_descifrado)
